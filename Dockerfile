@@ -7,7 +7,6 @@ RUN apt install -y libhwloc-dev libuv1-dev libssl-dev msr-tools
 
 RUN git clone https://github.com/xmrig/xmrig.git
 
-
 RUN cd xmrig
 RUN mkdir build && cd build
 RUN cmake ..
